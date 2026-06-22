@@ -8,7 +8,7 @@
 1. Убедитесь, что у вас установлен Flutter SDK (версия >= 3.0.0).
 2. Склонируйте репозиторий и перейдите в папку проекта:
    ```bash
-   git clone <ваша_ссылка_на_репозиторий>
+   git clone https://github.com/BEBEBRR/Flutter_TZ_PC.git
    cd kaf_studio
 Подтяните зависимости:
 
