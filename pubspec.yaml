@@ -1,0 +1,34 @@
+name: kaf_studio
+description: "«Наши услуги» по дизайну KAF Studio."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+  google_fonts: ^8.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/icon_logo.svg 
+    - assets/line_top1.svg
+    - assets/line_top2.svg
+    - assets/line_top3.svg
+    - assets/line_bottom1.svg
+    - assets/line_bottom2.svg
+    - assets/hex_active.png
+    - assets/hex_default.png
+
+ 
