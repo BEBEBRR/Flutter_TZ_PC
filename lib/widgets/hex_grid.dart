@@ -40,7 +40,7 @@ class _HexGridState extends State<HexGrid> {
 
   void _scheduleClose(int index) {
     _closeTimer?.cancel();
-    _closeTimer = Timer(const Duration(milliseconds: 300), () {
+    _closeTimer = Timer(const Duration(milliseconds: 150), () {
       if (mounted && activeIndex == index) {
         setState(() => activeIndex = null);
       }
