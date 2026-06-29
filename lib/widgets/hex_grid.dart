@@ -56,12 +56,13 @@ class _HexGridState extends State<HexGrid> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 750,
+      width: 1500,
       height: 750,
       child: Transform.translate(
         offset: const Offset(0, 40),
         child: Stack(
           alignment: Alignment.center,
+          clipBehavior: Clip.none,
           children: [
             Column(
               mainAxisSize: MainAxisSize.min,
